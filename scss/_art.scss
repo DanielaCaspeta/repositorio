@@ -13,15 +13,16 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 .header{
+   
     background-image: /*linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)), */
-        url(/images/BANNER_WEB.png); 
+        url(../images/BANNER_WEB.png); 
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: cover;
@@ -223,7 +224,7 @@ body {
         background-image: linear-gradient(
             rgba(0,0,0,0.7),
             rgba(0,0,0,0.7)),
-            url(/images/BANNER_2.png);
+            url(../images/BANNER_2.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -271,30 +272,7 @@ body {
         font-size: 18px;
     }
 
-    /*.general {
-        display: flex;
-    }
 
-    .general-1 {
-        width: 50px;
-        padding: 100px 250px 100px 100px;
-        background-color: white;
-    }
-    .general-2 {
-        background-image: url(images/coffe-1.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 50%;
-    }
-
-    .general-3 {
-        background-image: url(images/coffee-2.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 50%;
-    } */
 
     h2 {
         font-size: 55px;

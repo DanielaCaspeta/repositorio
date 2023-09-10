@@ -1,0 +1,142 @@
+ 
+    @media(max-width:791px) {
+        .menu {
+            padding: 30px;  
+        }
+
+        .menu label{
+            display: initial;
+        }
+
+        .menu .navbar {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            
+            background-color: rgb(0, 0, 0);
+            display: none;
+
+        }
+
+
+
+        .logo{
+         
+          top: 100%;
+          left: 0;
+          right: 0;
+          display: none;
+        }
+
+        .menu .navbar ul li {
+           width: 100%;   
+        }
+         #menu:checked ~ .navbar {
+            display: initial;
+         }
+
+         .header {
+            min-height: 0vh;
+         }
+         .header-content {
+            padding: 100px 30px;
+         }
+         .header-content p {
+            padding: 0;
+         }
+
+
+
+         .horror {
+            padding: 20px;
+         }
+
+         .horror-content h2 {
+            padding: 100px;
+         }
+
+         .txt-p {
+            padding: 0px;
+         }
+         .horror-group {
+            flex-direction: column;
+            margin-bottom: 0px;
+         }
+         .horror-img .horror-img2{
+            display: none;
+            width: 100%;
+            padding: 10;
+         }
+
+         .services {
+            padding: 30px;
+         }
+         .services-content p{
+            padding: 0;
+         }
+
+         .services-group{
+            flex-direction: column;
+            margin-bottom: 0;
+         }
+
+         .services-1 {
+            margin-bottom: 25px;
+         }
+
+
+         .blog{
+            padding: 30px;
+         }
+         .blog-content {
+            flex-direction: column;
+         }
+
+         .blog-1 {
+            padding: 0;
+         }
+
+
+
+
+
+         .footer {
+            padding: 50px;
+         }
+
+         .footer-content{
+            flex-direction: column;
+            text-align: center;
+         }
+
+
+        }
+
+        @media(max-width:560px){
+
+        .layout{
+          grid-row: span 1;
+         }
+         .h-stretch{
+          grid-column: span 1;
+         }
+         .big-stretch{
+          grid-column: span 1;
+          grid-row: span1;
+         }
+        }
+        @media(max-width: 480px) {
+          .container-form {
+              flex-direction: column;
+              align-items: center;
+          }
+      .info-form, form {
+              width: 100%;
+          }
+          
+          .campo, textarea, .btn-enviar {
+              width: 100%;
+              font-size: 14px;
+          }
+      }
